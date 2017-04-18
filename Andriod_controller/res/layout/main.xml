@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/in"
+        android:layout_width="match_parent"
+        android:layout_height="321dp"
+        android:layout_x="2dp"
+        android:layout_y="353dp"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll" >
+    </ListView>
+
+    <Button
+        android:id="@+id/btn_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="232dp"
+        android:text="向 上"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btn_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="294dp"
+        android:text="向 下"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btn_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="109dp"
+        android:layout_y="270dp"
+        android:text="row_x"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btn_y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="212dp"
+        android:layout_y="270dp"
+        android:text="row_y"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btn_turnRotate"
+        android:layout_width="84dp"
+        android:layout_height="66dp"
+        android:layout_x="112dp"
+        android:layout_y="90dp"
+        android:text="原地转动"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="90dp"
+        android:text="左转"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/btn_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="212dp"
+        android:layout_y="90dp"
+        android:text="右转"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/btn_foward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="106dp"
+        android:layout_y="16dp"
+        android:text="前进"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="112dp"
+        android:layout_y="170dp"
+        android:text="后退"
+        android:textSize="35dp" />
+
+</AbsoluteLayout>
